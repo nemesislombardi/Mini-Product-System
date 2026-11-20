@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "price": 2500
+  },
+  {
+    "id": 2,
+    "name": "Mouse",
+    "price": 35
+  },
+  {
+    "id": 3,
+    "name": "Keyboard",
+    "price": 120
+  },
+  {
+    "id": 4,
+    "name": "Monitor",
+    "price": 650
+  },
+  {
+    "id": 5,
+    "name": "Headphones",
+    "price": 180
+  },
+  {
+    "id": 6,
+    "name": "Webcam",
+    "price": 95
+  },
+  {
+    "id": 7,
+    "name": "Microphone",
+    "price": 210
+  },
+  {
+    "id": 8,
+    "name": "Mousepad",
+    "price": 25
+  },
+  {
+    "id": 9,
+    "name": "USB Hub",
+    "price": 45
+  },
+  {
+    "id": 10,
+    "name": "SSD",
+    "price": 320
+  },
+  {
+    "id": 11,
+    "name": "HDD",
+    "price": 190
+  },
+  {
+    "id": 12,
+    "name": "Graphics Card",
+    "price": 1800
+  },
+  {
+    "id": 13,
+    "name": "Processor",
+    "price": 950
+  },
+  {
+    "id": 14,
+    "name": "RAM",
+    "price": 280
+  },
+  {
+    "id": 15,
+    "name": "Motherboard",
+    "price": 520
+  },
+  {
+    "id": 16,
+    "name": "Power Supply",
+    "price": 240
+  },
+  {
+    "id": 17,
+    "name": "PC Case",
+    "price": 310
+  },
+  {
+    "id": 18,
+    "name": "CPU Cooler",
+    "price": 150
+  },
+  {
+    "id": 19,
+    "name": "Speakers",
+    "price": 130
+  },
+  {
+    "id": 20,
+    "name": "Gaming Chair",
+    "price": 750
+  }
+]
