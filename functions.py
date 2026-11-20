@@ -48,7 +48,46 @@ def search_by_name(name):
 
     print("Product not found")
 
-def 
+def search_by_id(id):
 
+    if not products:
+        print("Products data empty")
+        return
+
+    for x in products:
+        if x['id'] == id:
+            print(f"ID: {x['id']}")
+            print(f"Name: {x['name']}")
+            print(f"Price: {x['price']}")
+            print("-" * 30)
+            return
+
+    print("Product not found")
+
+def get_cheapest_product():
+
+    if not products:
+        print("Products data empty")
+        return
+
+    cheapest = min(products, key=lambda x: x['price'])
+
+    print(f"ID: {cheapest['id']}")
+    print(f"Name: {cheapest['name']}")
+    print(f"Price: {cheapest['price']}")
+    print("-" * 30)
+
+def get_expensive_product():
+
+    if not products:
+        print("Products data empty")
+        return
+
+    expensive = min(products, key=lambda x: x['price'])
+
+    print(f"ID: {expensive['id']}")
+    print(f"Name: {expensive['name']}")
+    print(f"Price: {expensive['price']}")
+    print("-" * 30)
 
 
