@@ -14,3 +14,12 @@ def showAllProducts():
         print(f"Name: {x['name']}")
         print(f"Price: {x['price']}")
         print("-" *30)
+
+def sort_by_price_asc():
+    products.sort(key=lambda x: x['price'])
+    showAllProducts()
+
+def sort_by_price_desc():
+    products.sort(key=lambda x: x['price'], reverse=True)
+    showAllProducts()
+
